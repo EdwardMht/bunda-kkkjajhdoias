@@ -10,24 +10,24 @@ const perguntas = [
         alternativas: [
             {
                 texto: "as pessoas deveriam parar com as queimadas.",
-                afirmacao: "No início ficou com medo do que essa tecnologia pode fazer. "
+                afirmacao: "As pessoas deveriam parar de prejudicar o planeta em que vivem, a começar pelas queimadas."
             },
             {
                 texto: "o governo deveria tomar mais providẽncias para acabar com as queimadas",
-                afirmacao: "Quis saber como usar IA no seu dia a dia."
+                afirmacao: "O governo deveria promover uma campanha para a intervenção nas queimas das florestas."
             }
         ]
     },
     {
-        enunciado: "quais providẽncias o Governo e as pessoas podem tomar, para que esse problema seja resolvido?",
+        enunciado: "quais providências o Governo e as pessoas podem tomar, para que esse problema seja resolvido?",
         alternativas: [
             {
-                texto: "Leis podem ser criadas e os cidadões podem ajudar a monitorar e descibrir quem começa as queimadas",
-                afirmacao: "Conseguiu utilizar a IA para buscar informações úteis."
+                texto: "Leis podem ser criadas e os cidadões podem ajudar a monitorar e descobrir quem começa as queimadas",
+                afirmacao: "As leis criadas podem ser um ótimo começo para a restauração das florestas."
             },
             {
                 texto: "o governo pode oferecer benefícios, para quem ajudar a combater e ajudar contra as queimadas.",
-                afirmacao: "Sentiu mais facilidade em utilizar seus próprios recursos para escrever seu trabalho."
+                afirmacao: "As pessoas podem receber recompensas em troca de favores para o governo, como a ajuda na intervenção das queimas nas florestas."
             }
         ]
     },
@@ -35,38 +35,25 @@ const perguntas = [
         enunciado: "vocẽ está na sua casa e decide sair. Ao sair se depara com um vizinho seu jogando lixo na rua, o que vocẽ faz?",
         alternativas: [
             {
-                texto: "Defende a ideia de que a IA pode criar novas oportunidades de emprego e melhorar habilidades humanas.",
-                afirmacao: "Vem impulsionando a inovação na área de IA e luta para abrir novos caminhos profissionais com IA."
+                texto: "vocẽ chega até a pessoa e a questiona.",
+                afirmacao: "Você se importa com o ambiente em que você vive, e quer mante-lo o mais limpo possível."
             },
             {
-                texto: "Me preocupo com as pessoas que perderão seus empregos para máquinas e defendem a importância de proteger os trabalhadores.",
-                afirmacao: "Sua preocupação com as pessoas motivou a criar um grupo de estudos entre trabalhadores para discutir meios de utilização de IA de forma ética."
+                texto: "vocẽ ignora e segue seu dia.",
+                afirmacao: "Você prefere se manter calado e não ligar para o ato de seus vizinhos, e é por isso que o mundo está do jeito que está, por causa de pessoas como você."
             }
         ]
     },
     {
-        enunciado: "Ao final da discussão, você precisou criar uma imagem no computador que representasse o que pensa sobre IA. E agora?",
+        enunciado: "ao chegar no trabalho vocẽ se depara com uma noticia na TV sobre o aumento de descarte de lixo em lugares inapropriados. O que vocẽ faz?",
         alternativas: [
             {
-                texto: "Criar uma imagem utilizando uma plataforma de design como o Paint.",
-                afirmacao: "Notou também que muitas pessoas não sabem ainda utilizar as ferramentas tradicionais e decidiu compartilhar seus conhecimentos de design utilizando ferramentas de pintura digital para iniciantes."
+                texto: "Vocẽ pensa que as pessoas poderiam intervir primeiro por conta própria.",
+                afirmacao: "As pessoas pensando por conta própria, estariam agindo de forma consciente, se importando com o meio ambiente."
             },
             {
-                texto: "Criar uma imagem utilizando um gerador de imagem de IA.",
-                afirmacao: "Acelerou o processo de criação de trabalhos utilizando geradores de imagem e agora consegue ensinar pessoas que sentem dificuldades em desenhar manualmente como utilizar também!"
-            }
-        ]
-    },
-    {
-        enunciado: "Você tem um trabalho em grupo de biologia para entregar na semana seguinte, o andamento do trabalho está um pouco atrasado e uma pessoa do seu grupo decidiu fazer com ajuda da IA. O problema é que o trabalho está totalmente igual ao do chat. O que você faz? ",
-        alternativas: [
-            {
-                texto: "Escrever comandos para o chat é uma forma de contribuir com o trabalho, por isso não é um problema utilizar o texto inteiro.",
-                afirmacao: "Infelizmente passou a utilizar a IA para fazer todas suas tarefas e agora se sente dependente da IA para tudo."
-            },
-            {
-                texto: "O chat pode ser uma tecnologia muito avançada, mas é preciso manter a atenção pois toda máquina erra, por isso revisar o trabalho e contribuir com as perspectivas pessoais é essencial.",
-                afirmacao: "Percebeu que toda IA reproduz orientações baseadas na empresa que programou e muito do que o chat escrevia não refletia o que pensava e por isso sabe que os textos gerados pela IA devem servir como auxílio e não resultado final. "
+                texto: "Vocẽ pensa que o governo deveria intervir por conta própria e sem o acontecimento de protestos e coisas que forçem o governo a fazer tal.",
+                afirmacao: "O governo poderia intervir nas queimadas e coisas que prejudiquem o meio ambiente, tornando a cidade, e eventualmente, o mundo, num lugar melhor."
             }
         ]
     },
@@ -105,7 +92,7 @@ function respostaSelecionada(opcaoSelecionada) {
 }
 
 function mostraResultado() {
-    caixaPerguntas.textContent = "Em 2049...";
+    caixaPerguntas.textContent = "Conclusão final...";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
 }

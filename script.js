@@ -27,7 +27,7 @@ const perguntas = [
                 texto: "Leis podem ser criadas e os cidadões podem ajudar a monitorar e descobrir quem começa as queimadas",
                 afirmacao: "As leis criadas podem ser um ótimo começo para a restauração das florestas",
                 afirmacao: "com as leis as pessoas acabam sendo forçadas a parar as queimas das florestas",
-            }
+            },
             {
                 texto: "o governo pode oferecer benefícios, para quem ajudar a combater e ajudar contra as queimadas.",
                 afirmacao: "As pessoas podem receber recompensas em troca de favores para o governo, como a ajuda na intervenção das queimas nas florestas."
@@ -101,10 +101,6 @@ function mostraResultado() {
     caixaPerguntas.textContent = "Conclusão final...";
     textoResultado.textContent = historiaFinal;
     caixaAlternativas.textContent = "";
-}
-
-function BtnReiniciar() {
-    
 }
 
 mostraPergunta();
